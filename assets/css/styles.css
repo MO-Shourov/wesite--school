@@ -353,10 +353,12 @@ img {
     width: 250px;
     margin-top: var(--mb-3);
     margin-bottom: var(--mb-6);
-    transform: var(--rotate-img);
+    /* transform: var(--rotate-img); */
     filter: drop-shadow(0 12px 8px rgba(0, 0, 0, .2));
 }
-
+.sale-0{
+    transform: var(--rotate-img);
+}
 .sneaker__name,
 .sneaker__preci {
     font-size: var(--h2-font-size);
