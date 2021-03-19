@@ -204,9 +204,9 @@ img {
     font-size: 2em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
-.nav__logo:hover {
+/* .nav__logo:hover {
     
-}
+} */
 .nav__toggle,
 .nav__shop {
     font-size: 2.5rem;
@@ -290,8 +290,18 @@ img {
     display: inline-block;
     background-color: var(--dark-color);
     color: var(--white-color);
-    padding: 1.125rem 2rem;
+    padding: 1rem .9rem;
     font-weight: var(--font-medium);
+    border-radius: .5rem;
+    transition: .3sec;
+    box-shadow: 0 2px 4px rgba(220, 24, 238, 0.8);
+}
+.button-nav {
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    padding: .125rem 2rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
     transition: .3sec;
     box-shadow: 0 2px 4px rgba(220, 24, 238, 0.8);
